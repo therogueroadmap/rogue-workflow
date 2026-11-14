@@ -1,0 +1,13 @@
+{
+  "name": "rogue-workflow",
+  "description": "A level-based development workflow for Claude Code, built on superpowers: from idea to plan to parallel execution by dependency level.",
+  "version": "0.1.0",
+  "author": {
+    "name": "José R. Pérez Sandó",
+    "email": "contact@therogueroadmap.com"
+  },
+  "homepage": "https://github.com/therogueroadmap/rogue-workflow",
+  "repository": "https://github.com/therogueroadmap/rogue-workflow",
+  "license": "MIT",
+  "keywords": ["workflow", "subagents", "planning", "parallel", "claude-code"]
+}
