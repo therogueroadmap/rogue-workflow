@@ -5,6 +5,9 @@
 ### Added
 - Plugin icon (`.claude-plugin/icon.png`).
 
+### Security
+- Brainstorm companion: the bootstrap page embeds the server token instead of the key read from the request, and escapes `<` in it.
+
 ## [0.1.0] - 2026-11-14
 
 ### Added
