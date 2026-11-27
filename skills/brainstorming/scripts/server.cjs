@@ -179,7 +179,7 @@ h1 { color: #333; } p { color: #666; } code { background: #f0f0f0; padding: 0.1e
 
 function bootstrapPage(key) {
   // Escape '<' so the key can never close the inline <script> element.
-  const jsonKey = JSON.stringify(String(key)).replace(/</g, '\u003c');
+  const jsonKey = JSON.stringify(String(key)).replace(/</g, '\\u003c');
   return `<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8"><title>Opening Brainstorm Companion</title></head>
